@@ -798,6 +798,128 @@
             Built on pump.tires protocol - Fair launch, automatic PulseX graduation, permanently locked liquidity.
         </p>
     </section>
+    <!-- Phoenix DAO — Revival System -->
+    <section class="section" id="phoenix-dao">
+        <h2 class="section-title">Phoenix DAO • Revival System</h2>
+
+        <div class="story-panel">
+            <div class="micro-header">Goal</div>
+            <p>Revive PulseChain tokens using a standardized on-chain playbook that is predictable, auditable, and aligned with real holders and sustainable liquidity.</p>
+
+            <div class="micro-header">How it works</div>
+            <ol>
+                <li><strong>Proposal</strong> is submitted to Phoenix DAO with a fixed plan and a public ReviveScore hash.</li>
+                <li><strong>Voting</strong> by staking $PHOENIX with quorum and a refundable bond deposit.</li>
+                <li><strong>Timelock</strong> after approval for public review and plan verification.</li>
+                <li><strong>Execution</strong> via a RescuePlaybook contract with whitelisted calls and locked parameters.</li>
+                <li><strong>Migration Window</strong> for legacy holders to swap with a short vesting to prevent instant dumps.</li>
+                <li><strong>LP Seeding</strong> with locks and scheduled renounce, then close and report.</li>
+            </ol>
+        </div>
+
+        <div class="token-grid">
+            <div class="token-card">
+                <div class="token-icon">🗳️</div>
+                <h3>Governance</h3>
+                <p>Voting by staking $PHOENIX</p>
+                <small>Quorum, timelock, and bond with slashing on faulty execution</small>
+            </div>
+            <div class="token-card">
+                <div class="token-icon">📊</div>
+                <h3>ReviveScore</h3>
+                <p>Open metric of the target</p>
+                <small>Liquidity, active holders, volume, risk, social presence</small>
+            </div>
+            <div class="token-card">
+                <div class="token-icon">🧩</div>
+                <h3>Playbook</h3>
+                <p>Atomic and auditable actions</p>
+                <small>openRescue, fundVault, migration, seedLP, close</small>
+            </div>
+            <div class="token-card">
+                <div class="token-icon">♻️</div>
+                <h3>MigrationSwap</h3>
+                <p>Legacy to new token swap</p>
+                <small>Fixed ratio, cliff, and vesting anti dump</small>
+            </div>
+            <div class="token-card">
+                <div class="token-icon">💧</div>
+                <h3>Locked LP</h3>
+                <p>Seed with lock</p>
+                <small>Scheduled renounce and no keys</small>
+            </div>
+            <div class="token-card">
+                <div class="token-icon">🛡️</div>
+                <h3>Security</h3>
+                <p>Whitelisted calls only</p>
+                <small>No generic execute and treasury streaming</small>
+            </div>
+            <div class="token-card">
+                <div class="token-icon">🎯</div>
+                <h3>Incentives</h3>
+                <p>Curated proposals rewarded</p>
+                <small>Revenue share to stakers and data bounties</small>
+            </div>
+            <div class="token-card">
+                <div class="token-icon">🔎</div>
+                <h3>Transparency</h3>
+                <p>Public proofs</p>
+                <small>IPFS hashes and post execution report</small>
+            </div>
+        </div>
+
+        <div class="story-panel">
+            <div class="micro-header">Proposal structure</div>
+            <ul>
+                <li><strong>Target token</strong> name, address, contract links, socials</li>
+                <li><strong>ReviveScore</strong> IPFS hash and criteria breakdown</li>
+                <li><strong>Migration params</strong> ratio, window, cliff, vesting</li>
+                <li><strong>Initial liquidity</strong> pair, range, lock, renounce policy</li>
+                <li><strong>Playbook ID</strong> version and functions to be called</li>
+                <li><strong>Max budget</strong> PLS allocated, streaming, milestones</li>
+                <li><strong>KPIs</strong> migrated holders, liquidity, volume targets</li>
+                <li><strong>Risks</strong> and mitigations, including legacy contract constraints</li>
+            </ul>
+        </div>
+
+        <div class="story-panel">
+            <div class="micro-header">Standard timeline</div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Selection and analysis</h3>
+                        <p>Data collection, ReviveScore calculation, and plan draft</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Voting and timelock</h3>
+                        <p>Quorum reached, bond locked, and public verification of the plan</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Playbook execution</h3>
+                        <p>Vault funded, migration opened, and keyless LP</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Close and report</h3>
+                        <p>Rescue closed, on-chain metrics, and revenue distribution</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p style="text-align:center; opacity:.85; margin-top: var(--spacing-lg);">
+            Every revival runs on standard contracts. An approved proposal can only call whitelisted Playbook functions with parameters locked by the referenced plan hash.
+        </p>
+    </section>
 
     <!-- Flight Log Section -->
     <section class="section">
